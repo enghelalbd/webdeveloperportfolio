@@ -79,11 +79,8 @@ nav ul a{
     margin: 0px 35px 0px 230px;
 }
 
-.header{
 
-    background-image: url('images/developer.png');
-}
-.a{
+.header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
    background-repeat: no-repeat;
    background-position: top left, bottom right;
@@ -104,13 +101,33 @@ nav ul a{
 }
 
 .secondary-bg{
-    color: #FFF8F3;
+    color: #c0ad9f;
 
 }
 
 .about{
     border-radius: 20px;
     padding: 171px 206px;
-    text-align: center;
+    
     margin-top: 130px;
+}
+
+.skill{
+    display: flex;
+    gap: 24px;
+}
+
+.skilldescription
+{
+    padding: 30px;
+}
+.content{
+    background-color: aquamarine;
+    border-radius: 10px;
+   
+}
+.secondary-bg{
+    background-color: #daaa88;
+    margin-left: 230px;
+    margin-right: 230px;
 }
