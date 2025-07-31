@@ -110,6 +110,7 @@ nav ul a{
     padding: 171px 206px;
     
     margin-top: 130px;
+    background-color: #FFF8F3;
 }
 
 .skill{
@@ -127,7 +128,29 @@ nav ul a{
    
 }
 .secondary-bg{
-    background-color: #daaa88;
+    background-color: #FFF8F3;
     margin-left: 230px;
     margin-right: 230px;
+}
+
+
+.aboutfooter{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.summary{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    gap: 120px;
+}
+
+.footer{
+    display: flex;
+    background-color: #FFF8F3;
+
+   
 }
