@@ -19,7 +19,11 @@
   justify-content: space-around;
   margin-top: 100px;
 }
-
+.download-cv {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 .btn-primary {
   background-color: #fd6e0a;
   font-weight: bold;
@@ -28,6 +32,7 @@
   border-radius: 5px;
   padding: 18px 35px;
   border: none;
+  justify-content: center;
 }
 
 .banner-titel {
@@ -55,6 +60,8 @@
 
 .content {
   background-color: #ded5ce;
+  border-radius: 25px;
+  border: 12px solid rgb(221, 206, 199);
 }
 .dark2 {
   color: #474747;
