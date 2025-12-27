@@ -116,10 +116,6 @@ nav ul a {
   justify-content: center;
 }
 
-.secondary-bg {
-  color: #c0ad9f;
-}
-
 .skill {
   display: flex;
   gap: 24px;
@@ -130,8 +126,6 @@ nav ul a {
 }
 .secondary-bg {
   background-color: #fff8f3;
-  margin-left: 230px;
-  margin-right: 230px;
 }
 
 .summary {
