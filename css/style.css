@@ -10,7 +10,7 @@
 
 .about {
   border-radius: 20px;
-  padding: 130px 150px;
+  padding: 130px 50px;
   margin-top: 120px;
 }
 
@@ -119,11 +119,13 @@ nav ul a {
 .skill {
   display: flex;
   gap: 24px;
+  margin-top: 30px;
 }
 
 .skilldescription {
   padding: 30px;
 }
+
 .secondary-bg {
   background-color: #fff8f3;
 }
