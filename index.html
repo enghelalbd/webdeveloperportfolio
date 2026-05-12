@@ -177,37 +177,60 @@
                 </div>
             </div>
             <div class="download-cv">
-<button class="btn-primary  ">  Download Cv </button>
+<button class="btn-primary  ">  Download CV </button>
             </div>
 
         
         </div>
         </section>
 
+        <!-- CRUD Section Start -->
+        <section class="crud-section secondary-bg">
+            <div class="crud-container">
+                <h3 class="section-titel">Task Manager (CRUD Demo)</h3>
+                <div class="crud-form">
+                    <input type="text" id="taskInput" placeholder="Enter a new task..." class="task-input">
+                    <button onclick="addTask()" class="btn-primary">Add Task</button>
+                </div>
+                <ul id="taskList" class="task-list"></ul>
+                <p id="noTasks" class="no-tasks">No tasks yet. Add one to get started!</p>
+            </div>
+        </section>
+        <!-- CRUD Section End -->
+
     </main>
 
 
     <section class="footer">
-        <div class="f">   
+        <div class="footercontainer">   
         <div class="footerleft">
-            <h2>Lets Connect </h2>
+            <h2 class="section-titel">Lets Connect </h2>
             <p> Please fill out the form on
-                 this section to contact with me or
-                  call between 9:00 A.M and 8.00 P.M ET,
+                 this section to contact with me or  
+                  call between <br> 9:00 A.M and 8.00 P.M ET,
                 Monday through Friday. </p>
+
+                <div>
+                    <a href=""> <img src="images/icons/facebook.png" >  </a>
+                    <a href=""> <img src="images/icons/twitter.png" >  </a>
+                    <a href=""> <img src="images/icons/insta.png" >  </a>
+                </div>
         </div>
          <div class="footerright">
             <h2>Let’s Message me </h2>
             <form>
-                <input type="text"    placeholder="Your name" > 
-                <input type="text"    placeholder="Your Email" > 
-                <input type="text"    placeholder="Message .." > 
+                <input type="text"    placeholder="Your name" >  <br>
+                <input type="text"    placeholder="Your Email" > <br>
+                <textarea  rows="4" cols="50"  placeholder="Your Message" > </textarea> <br>
             </form>
-   <button class="btn-primary" > Submit </button>
+                   <button class="btn-primary" > Submit </button>
          </div>
          </div>
 
     </section>
+    <div class="copyright"> <h1 class="text-center dark2"> Copyright  2024  Helalddin </h1> </div>
+
+
 
 
 
